@@ -1,4 +1,7 @@
 /* Navigation bar */
+body {
+  margin: auto;
+}
 
 nav {
   display: flex;
@@ -6,6 +9,7 @@ nav {
   align-items: center;
   padding: 5px 20px;
   border-radius: 3px 3px 0 0;
+  height: 40px;
 }
 
 .navbar-brand {
