@@ -1,4 +1,9 @@
+html {
+  background-image: radial-gradient(circle at center, purple, lightblue);
+}
+
 /* Navigation bar */
+
 body {
   margin: auto;
 }
@@ -7,9 +12,10 @@ nav {
   display: flex;
   background-color: #ff6600;
   align-items: center;
-  padding: 5px 20px;
+  padding: 10px 20px; /* Increased padding */
   border-radius: 3px 3px 0 0;
-  height: 40px;
+  height: 60px;
+  font-size: 1.3rem; /* Increased height */
 }
 
 .navbar-brand {
@@ -17,7 +23,7 @@ nav {
 }
 
 .nav-link {
-  font-size: 0.85rem;
+  font-size: 1.3rem;
   margin: 0 3px;
 }
 
